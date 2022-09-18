@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.main{
+    background-color: #F3EAE3;
+    height: 100vh;
+    margin:auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.img{
+    width:25%;
+    height: 100%;
+}
+
+.details{
+    width:25%; 
+    background-color: #fff;
+    padding: 20px;
+    /* border-radius:0 0 12px 12px; */
+}
+
+.my_row{
+    display: grid;
+}
+
+.perfume{
+    width:100%;
+    height:100%;
+    /* border-radius: 12px 12px 0 0; */
+}
+
+.card_detail{
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    /* margin-top: 40px; */
+}
+
+.prices{
+    display: flex;
+    gap: 30px;
+}
+
+.prices > h3{
+   color:#3d8168; 
+}
+
+.mybtn{
+    background-color:#3d8168!important;
+    padding: 10px 70px;
+}
+
+.cart{
+    position: absolute;
+    color: #fff;
+    top: 15px;
+    left: 30px;
+}
+
+.btngroup{
+    position: relative;
+}
+
+.title,.para2{
+    color: #abaaaf;
+}
+
+.title{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 13px;
+}
+
+.details > h3{
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+
+@media(max-width:991px){
+
+    .img{
+        width:100%;
+        height: 50%;
+    }
+    
+    .details{
+        width:100%;
+        height: auto; 
+        background-color: #fff;
+        padding: 20px;
+    }
+
+    .card_detail{
+        display: block; 
+    }
+
+    
+    
+}
